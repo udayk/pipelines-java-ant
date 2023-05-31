@@ -12,8 +12,8 @@ pool:
 steps:
 - task: Ant@1
   inputs:
-    workingDirectory: ''
-    buildFile: 'build.xml'
+    #workingDirectory: ''
+    buildFile: 'pom.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
